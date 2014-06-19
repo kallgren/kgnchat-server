@@ -1,0 +1,1 @@
+-record(client, {socket, address, nick, application}).
