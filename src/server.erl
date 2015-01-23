@@ -68,7 +68,7 @@ cli() ->
     InputClean = string:strip(Input, right, $\n),
     Message = string:strip(InputClean),
     case Message of
-	[] ->
+	"" ->
 	    ok;
 	_ ->
 	    case hd(Message) of
